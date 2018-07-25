@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-superstylin",
+  "name": "fira",
   "version": "2.0.1",
-  "description": "A Gatsby starter with styled-components",
+  "description": "",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bntzio/gatsby-starter-superstylin.git"
+    "url": "git+https://github.com/didacta/fira.git"
   },
   "keywords": [
     "react",
     "gatsby",
     "styled-components"
   ],
-  "author": "Enrique Benitez <bntz.io>",
+  "author": "Igor Yermak",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bntzio/gatsby-starter-superstylin/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/bntzio/gatsby-starter-superstylin#readme",
+  "homepage": "",
   "dependencies": {
     "gatsby": "^1.9.139",
     "gatsby-image": "^1.0.55",
