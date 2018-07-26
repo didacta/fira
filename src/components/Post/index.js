@@ -8,6 +8,7 @@ const StyledPost = styled.div`
   box-sizing: border-box;
 
   h1 {
+    
     color: #102a45;
     font-family: 'Poppin', sans-serif;
     font-weight: 700;

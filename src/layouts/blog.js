@@ -7,7 +7,10 @@ import styled from 'styled-components'
 import BlogHeader from '../components/BlogHeader'
 
 const Main = styled.main`
+  background-color:white;
   padding: 0 1rem;
+  margin: 50px;
+ 
 `
 
 const TemplateWrapper = ({children, location}) => (
@@ -22,7 +25,7 @@ const TemplateWrapper = ({children, location}) => (
       ]}
     />
     <BlogHeader>
-      <h1><Link to={location.pathname === '/blog' ? '/' : '/blog'}>Photos</Link></h1>
+      <h1><Link to={location.pathname === '/blog' ? '/' : '/blog'}>Projects</Link></h1>
     </BlogHeader>
 
     {children()}

@@ -8,6 +8,7 @@ export default () => (
   <Menu>
     <li><Link to='/about'>About</Link></li>
     <li><Link to='/blog'>Blog</Link></li>
+    <li><Link to='/photo'>Photos</Link></li>
     <li>
       <a href='https://github.com/didacta' target='_blank'>
         GitHub

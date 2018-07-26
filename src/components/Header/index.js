@@ -2,47 +2,52 @@ import React from 'react'
 import styled from 'styled-components'
 
 const StyledHeader = styled.div`
-  margin-top: 4rem;
+
+
+  margin-top: 1px;
   text-align: right;
   body {
     background-color: red;
   }
   h1 {
-    background-color: white;
+    margin: 15px;
+    background-color: #0e3b3c;
     color: blue;
-    font-size: 2rem;
-    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-family: 'Dunbar', sans-serif;
     font-weight: 200;
-    font-style: Semi-Bold;
-    border-bottom: 1px solid teal;
+    font-style: normal;
+    border-bottom: 4px solid teal;
     display: inline-flex;
     @media (min-width: 768px) {
-      font-size: 2.4rem;
+      font-size: 1.6rem;
     }
     a {
-      transition: all .3s ease-in-out;
-      color: #5082b0;
+      transition: all .45s ease-in-out;
+      color: 	#c4e5ca;
       text-decoration: none;
       padding: 0 8px;
       &:hover {
         color: #fdfcfa;
-        background: #5082b0;
+        background: teal;
       }
     }
   }
   h2 {
     position: relative;
-    margin: 0;
+    background-color:#c4e5ca;
+    margin: 1px;
+    padding: 1px;
     margin-left: -1.6rem;
-    margin-top: -0.8rem;
-    color: #1a1a1a;
-    font-size: 0.2rem;
+    margin-top: 0.2rem;
+    color: #0e3b3c;
+    font-size: 0.59rem;
     font-family: 'Poppins', sans-serif;
     @media (min-width: 768px) {
       font-size: 1rem;
     }
     span {
-      color: #48697F;      ;
+      color:#c4e5ca;      ;
     }
     i {
       background-color: blue;

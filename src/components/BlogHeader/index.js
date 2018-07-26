@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const StyledHeader = styled.div`
   text-align: left;
-  margin-left: -1.4rem;
+  margin-left: 1.4rem;
   margin-top: 1.4rem;
   h1 {
     color: pink;
@@ -16,7 +16,7 @@ const StyledHeader = styled.div`
     a {
       transition: all .3s ease-in-out;
       padding: 0 4px;
-      color: #102a45;
+      color: black;
       text-decoration: none;
       &:hover {
         color: white;

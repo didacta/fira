@@ -5,11 +5,10 @@ const StyledAbout = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  margin: 155px -15px -15px -15px;
+  margin: .5rem;
   p {
-    margin: 15px;
-    color: #5e8767;
+    margin: 0;
+    color: #333333;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -18,7 +17,7 @@ const StyledAbout = styled.div`
       font-size: 1.1rem;
     }
     a {
-      color: #c4e5ca;
+      color: darkblue;
       text-decoration: none;
     }
   }
@@ -27,9 +26,7 @@ const StyledAbout = styled.div`
 export default () => (
   <StyledAbout>
     <p>
-    <li>Fira is a programming and photography blog featuring <a href='https://d3js.org/' target='_blank'></a></li><a href='https://d3js.org/' target='_blank'> d3.js</a><br />
-      Photography collages<br />
-      Data visualations
+     
       
       </p>
   </StyledAbout>

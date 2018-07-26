@@ -6,7 +6,8 @@ const StyledPostList = styled.ul`
   list-style-type: none;
   padding-left: 0;
   margin-left: 0.8rem;
-  background-color: #fdfcfa;
+  background-color: white;
+  
   a {
     font-size: 1.1rem;
     font-family: 'Lato', sans-serif;
