@@ -29,7 +29,7 @@ export default () => (
     <p>
     <li>Fira is a programming and photography blog featuring <a href='https://d3js.org/' target='_blank'></a></li><a href='https://d3js.org/' target='_blank'> d3.js</a><br />
       Photography collages<br />
-      Data visualations
+      Data visualizations
       
       </p>
   </StyledAbout>
