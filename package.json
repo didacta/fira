@@ -1,0 +1,36 @@
+{
+  "name": "cura",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"> Igor Yermak</h1>",
+  "main": "n/a",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.5.1",
+    "gatsby": "next",
+    "gatsby-image": "next",
+    "gatsby-link": "next",
+    "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-styled-components": "next",
+    "gatsby-source-filesystem": "next",
+    "gatsby-transformer-remark": "next",
+    "moment": "^2.22.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^3.4.2",
+    "webpack": "^4.16.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/didacta/fira.git"
+  },
+  "author": "Igor Yermak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/didacta/fira/issues"
+  },
+  "homepage": "https://github.com/didacta/fira#readme"
+}
