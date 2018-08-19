@@ -29,6 +29,10 @@
   },
   "author": "Igor Yermak",
   "license": "ISC",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop"
+  },
   "bugs": {
     "url": "https://github.com/didacta/fira/issues"
   },
