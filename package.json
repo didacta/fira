@@ -4,7 +4,9 @@
   "description": "<h1 align=\"center\"> Igor Yermak</h1>",
   "main": "n/a",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gatsby build",
+    "develop": "gatsby develop"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
@@ -29,10 +31,6 @@
   },
   "author": "Igor Yermak",
   "license": "ISC",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop"
-  },
   "bugs": {
     "url": "https://github.com/didacta/fira/issues"
   },
