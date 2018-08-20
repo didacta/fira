@@ -35,8 +35,8 @@ const StyledMenu = styled.ul`
       width: 11px;
       height: 11px;
       display: flex;
-      flex-direction: row;
-      margin-bottom: 1px;
+      flex-direction: block;
+      margin-bottom: 200px;
       margin-left: 81px;
     }
   }

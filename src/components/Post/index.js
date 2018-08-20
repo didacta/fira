@@ -1,7 +1,10 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 import moment from 'moment'
 
+import Layout from "../../components/layout"
+import Header from "../../components/Header"
 const StyledPost = styled.div`
   padding: 2rem;
   width: 100%;
@@ -36,6 +39,12 @@ const StyledPost = styled.div`
     @media (min-width: 768px) {
       width: 60%;
     }
+    a:visited {
+      color: navy; 
+    }
+    a {
+      color: #b8f9f9;
+    }
   }
 `
 
@@ -43,7 +52,11 @@ const Post = ({ postData }) => {
   const { html, frontmatter } = postData
   const m = moment(frontmatter.date, 'YYYY MM DD')
   return (
-    <StyledPost>
+    <Layout>
+       <Header>
+        <h1><Link to='/'>Igor Yermak</Link></h1>
+      </Header>
+     <StyledPost>
       <h1>{frontmatter.title}</h1>
       <p id='date'>Published on { m.format('MMM Do YYYY') }</p>
       <div
@@ -51,6 +64,7 @@ const Post = ({ postData }) => {
         dangerouslySetInnerHTML={{ __html: html }}
       />
     </StyledPost>
+    </Layout>
   )
 }
 

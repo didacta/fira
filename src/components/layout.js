@@ -25,14 +25,12 @@ const Layout = ({ children }) => (
     >
       <meta property="og:locale" content="en_US" />
     </Helmet>
-    <div className="site">
       <Header />
+    <div className="site">
+    
       <style>
         
-        background: rgb(16,47,89);
-  background: linear-gradient(356deg, rgba(16,47,89,1) 0%, rgba(33,119,129,1) 47%, rgba(47,161,161,0.7749474789915967) 100%);
-  background-size: 100%;
-  height: 100vh
+        
       </style>
       <main className="site-content ">{children}</main>
       <Footer />
