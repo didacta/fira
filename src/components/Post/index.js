@@ -6,7 +6,7 @@ const StyledPost = styled.div`
   padding: 2rem;
   width: 100%;
   box-sizing: border-box;
-
+  background-size: cover;
   h1 {
     
     color: #102a45;
@@ -20,7 +20,7 @@ const StyledPost = styled.div`
   }
   p#date {
     font-family: 'Poppin', sans-serif;
-    color: #737373;
+    color: navy;
     text-align: center;
     font-size: 0.8rem;
     font-weight: 400;

@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 const StyledHeader = styled.div`
   text-align: left;
-  margin-left: 1.4rem;
-  margin-top: 1.4rem;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
   h1 {
     color: pink;
     font-size: 1.4rem;

@@ -4,9 +4,8 @@ import styled from 'styled-components'
 
 const StyledPostList = styled.ul`
   list-style-type: none;
-  padding-left: 0;
+  padding: 2%;
   margin-left: 0.8rem;
-  background-color: white;
   
   a {
     font-size: 1.1rem;
