@@ -10,6 +10,7 @@ const StyledPost = styled.div`
   width: 100%;
   box-sizing: border-box;
   background-size: cover;
+  
   h1 {
     
     color: #102a45;
@@ -35,7 +36,7 @@ const StyledPost = styled.div`
     width: 100%;
     font-size: 1.3rem;
     line-height: 1.8rem;
-    color: #102a45;
+    color: #90FFDA;
     @media (min-width: 768px) {
       width: 60%;
     }

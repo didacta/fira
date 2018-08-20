@@ -16,7 +16,7 @@ const StyledPostList = styled.ul`
     text-decoration: none;
     padding: 10px;
     &:hover {
-      background: black;
+      background:#102a45;
       color: white;
     }
   }

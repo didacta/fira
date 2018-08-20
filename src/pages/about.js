@@ -8,6 +8,9 @@ const StyledAbout = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Poppin', sans-serif;
+  color: #102a45;
+
   li {
      
     font-size: 1.2rem;
