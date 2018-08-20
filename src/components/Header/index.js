@@ -3,7 +3,8 @@ import styled from 'styled-components'
 
 const StyledHeader = styled.div`
 
-
+/* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,119,129,1) 35%, rgba(17,177,177,1) 100%); */
   margin-top: 1px;
   text-align: right;
   body {
@@ -11,13 +12,13 @@ const StyledHeader = styled.div`
   }
   h1 {
     margin: 15px;
-    background-color: #0e3b3c;
+    background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,119,129,1) 35%, rgba(17,177,177,1) 100%);;
     color: blue;
     font-size: 1.3rem;
     font-family: 'Dunbar', sans-serif;
     font-weight: 200;
     font-style: normal;
-    border-bottom: 4px solid teal;
+    border-bottom: 1px dotted #217781;
     display: inline-flex;
     @media (min-width: 768px) {
       font-size: 1.6rem;
@@ -29,7 +30,7 @@ const StyledHeader = styled.div`
       padding: 0 8px;
       &:hover {
         color: #fdfcfa;
-        background: teal;
+        background: #020024;
       }
     }
   }
