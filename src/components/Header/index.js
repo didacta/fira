@@ -29,7 +29,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,119,129,1) 35%, rg
       text-decoration: none;
       padding: 0 8px;
       &:hover {
-        color: #fdfcfa;
+        color: #217781;
         background: #020024;
       }
     }
