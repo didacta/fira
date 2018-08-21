@@ -10,14 +10,14 @@ const Container = styled.div`
   font-weight: 400;
   font-style: Semi-Bold;
   margin: -3rem auto;
-  margin-left: 2rem ;
-  justify-content: space-between;
+  margin-left: 0 auto;
+  
   max-width: 450px;
   height:300px;
   display: flex;
   flex-direction: column;
-  align-items: right;
-  justify-content: left;
+  align-items: center;
+  justify-content: center;
   background-color:#cad9e7;
   color: #5082b0;
   padding:1.5rem;
@@ -28,6 +28,16 @@ const Container = styled.div`
     padding:5px;
     text-align:center;
   }
+  @media (max-width: 768px) {
+    padding: 1rem;
+    width: 95%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 0
+    margin-right:auto;
+    display: flex;
+    font-weight: 350;
+    font-size: 13px;
 `;
 
 const UserWrapper = styled.div`
