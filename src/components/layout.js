@@ -5,14 +5,15 @@ import { StaticQuery } from 'gatsby'
 import style from '../styles/style.css';
 
 
-import styled from 'styled-components'
 
+import styled from 'styled-components'
 import Header from '../components/Header/index.js'
+import Tabs from '../components/Tabs/index.js'
 import Footer from '../components/Footer/index.js'
 //import { graphql } from 'graphql';
 
 const Layout = ({ children }) => (
-  <div>
+  <div>    
     <Helmet
       title="Igor Yermak"
       meta={[
@@ -25,15 +26,19 @@ const Layout = ({ children }) => (
     >
       <meta property="og:locale" content="en_US" />
     </Helmet>
+      
       <Header />
+      {children}
+      
+      <Footer/>
     <div className="site">
     
       <style>
         
         
       </style>
-      <main className="site-content ">{children}</main>
-      <Footer />
+      <main className="site-content "></main>
+ 
     </div>
   </div>
 );

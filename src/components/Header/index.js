@@ -12,7 +12,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,119,129,1) 35%, rg
   }
   h1 {
     margin: 15px;
-    background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,119,129,1) 35%, rgba(17,177,177,1) 100%);;
     color: blue;
     font-size: 1.3rem;
     font-family: 'Dunbar', sans-serif;
@@ -25,7 +24,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,119,129,1) 35%, rg
     }
     a {
       transition: all .45s ease-in-out;
-      color: 	#c4e5ca;
+      color: 	;
       text-decoration: none;
       padding: 0 8px;
       &:hover {

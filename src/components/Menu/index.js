@@ -3,9 +3,9 @@ import styled from 'styled-components'
 
 const StyledMenu = styled.ul`
   list-style-type:cjk-ideographic;
-  padding-left: 10.0px;
+  padding-left: 5.0px;
   padding-top:  5.0px;
-  padding-bottom:100px;
+  padding-bottom: 75px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,15 +20,17 @@ const StyledMenu = styled.ul`
     font-family: 'Lato', sans-serif;
     font-style: Semi-Bold ;
     font-weight: 200;
-    margin: .1rem 0 .1rem 0 ;
+    margin-left: 27px;
+    
     &:nth-child(even) {
-      margin: 0.6rem 0;
+      margin: 0.9rem 0;
+      margin-left:5px;
     }
     &:last-child {
-      margin-left: 10px;
+      margin-left: 16px;
     }
     @media (min-width: 768px) {
-      font-size: 1.8rem;
+      font-size: 1.9rem;
     }
     img#external-link {
       color: #5082b0;
@@ -65,7 +67,7 @@ const StyledMenu = styled.ul`
       padding: 3px;
     }
     @media (min-width: 768px) {
-      font-size: 2.7rem;
+      font-size: 2.0rem;
     
     }
     
