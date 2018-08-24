@@ -12,24 +12,24 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,119,129,1) 35%, rg
   }
   h1 {
     margin: 15px;
-    color: blue;
+    color: pink;
     font-size: 1.3rem;
     font-family: 'Dunbar', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
-    border-bottom: 1px dotted #217781;
+    border-bottom: 1px solid white;
     display: inline-flex;
     @media (min-width: 768px) {
       font-size: 1.6rem;
     }
     a {
       transition: all .45s ease-in-out;
-      color: 	;
+      color:white;
       text-decoration: none;
       padding: 0 8px;
       &:hover {
-        color: #217781;
-        background: #020024;
+        color: white;
+        background: pink;
       }
     }
   }
