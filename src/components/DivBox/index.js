@@ -13,25 +13,38 @@ const Container = styled.div`
   font-style: Semi-Bold;
   margin: -3rem auto;
   margin-left: 0 auto;
-  
+
   max-width: 550px;
-  height:400px;
+  height:480px;
   display: flex;
   flex-direction: column;
-  align-items: left;
-  justify-content: left;
-  background-image: linear-gradient(to bottom, white,  	 	#342c5c);  
-  color:  	 	#FF1493;
-  padding:1.5rem;
+  align-items: center;
+  justify-content: center;
+  th {
+    height: 55px;
+}
+td {
+  height: 25px;
+  vertical-align: bottom;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+  background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom right, #1565C0, pink); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color:  	 pink ;
+  padding:2.15rem;
   border: 1px solid #5082b0;
   box-shadow: 1px 1px 6px 1px #5082b0;
   h1{
     margin:20px;
-    padding:10px;
+    padding:7.5px 30px;
     text-align:center;
-    border: 1px solid  	#342c5c;
-    background-image: linear-gradient(to bottom right, pink,   	#342c5c);  
-    box-shadow: 4px 1px 6px 1px #9999ff ;
+    
+    box-shadow: 2px 1px 6px 1px #9999ff ;
     font-weight:200;
   }
   
@@ -48,7 +61,7 @@ const Container = styled.div`
 `;
 
 
-const UserWrapper = styled.div`
+/* const UserWrapper = styled.div`
   display: flex;
   align-items: center;
   margin: 0 auto 12px auto;
@@ -81,13 +94,28 @@ const Username = styled.h2`
 const Excerpt = styled.p`
   margin: 10;
 `;
+ */
 
+/* const User = props => (
+  <UserWrapper>
+    <Avatar src={props.avatar} alt="" />
+    <Description>
+      <Username>{props.username}</Username>
+      <Excerpt>{props.excerpt}</Excerpt>
+    </Description>
+  </UserWrapper>
+); */
 const GradientButton = styled.button`
     position: relative;
+    top:20px;
+    left: 400px;
+    
   appearance: none;
-  background: #f72359;
+  background: #4d5a99;
+  box-shadow: 1px 1px 6px 1px #5082b0;
   padding: 1em 5em 1em 5em;
-  border: 2px solid hotpink;
+  .text {color:#3b4371;}
+  border: 1px solid #444488 ;
   color: white;con
   font-size: 1.9em;
   cursor: pointer;
@@ -99,9 +127,15 @@ const GradientButton = styled.button`
     position: relative;
   } 
 
-  margin:1rem;
+  margin:10px;
+  @media (max-width: 768px) {
+      padding:10px 10px;}
+
+
+
+
   &::before {
-    --size:   0;
+    --size:   0px;
     content: '';
     position: absolute;
     left: ${props => props.x}px;
@@ -109,14 +143,14 @@ const GradientButton = styled.button`
     width: var(--size);
     height: var(--size);
     
-    background-image: linear-gradient(to bottom left  , orange, magenta );
+    background-image: linear-gradient(to bottom left  , #246ca6, pink, red );
     
-    transform: translate(-30%, -20%);
+    transform: translate(-50%, -20%);
     transition: width .45s ease, height .5s ease;
 		}
 		&:hover::before {
         
-			--size: 500px;
+			--size: 1000px;
 		}
 `;
 
@@ -146,15 +180,7 @@ class GradientButtonComponent extends React.Component {
   }
 }
 
-const User = props => (
-  <UserWrapper>
-    <Avatar src={props.avatar} alt="" />
-    <Description>
-      <Username>{props.username}</Username>
-      <Excerpt>{props.excerpt}</Excerpt>
-    </Description>
-  </UserWrapper>
-);
+
 
 
 export default () => (
@@ -175,13 +201,13 @@ export default () => (
       <td>JSX</td>
       <td>CSS3</td>
       <td>React</td>
-      <td>Agile</td>
+      <td>Python</td>
     </tr>
     <tr>
       <td>HTML5</td>
       <td>LESS</td>
       <td>Redux</td>
-      <td>d3</td>
+      <td>Linux</td>
     </tr>
     <tr>
       <td>Responsive Layouts</td>
@@ -195,15 +221,23 @@ export default () => (
       <td>ES6</td>
       <td>Webpack</td>
     </tr>
+    <tr>
+    <td></td>
+    <td></td>
+    <td>d3</td>
+    <td>Agile</td>
+
+    </tr>
   </tbody>
   
   <GradientButtonComponent />
 
 </Table>
+
 {/*     <User
-      username="Jane Doe"
+      username="Igor"
       avatar={github}
-      excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      excerpt="I'm Igor. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     /> */}
    
   </Container>

@@ -43,12 +43,12 @@ const StyledMenu = styled.ul`
     }
   }
   a {
-    color: #b8f9f9;
+    color: white;
     text-decoration: none;
     &:hover {
       padding: 5%;
       text-decoration: underline;
-      background-color: #217781;
+      background-color: pink;
       border-radius:5%;
     }
   }
