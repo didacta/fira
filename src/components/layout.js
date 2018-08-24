@@ -8,7 +8,6 @@ import style from '../styles/style.css';
 
 import styled from 'styled-components'
 import Header from '../components/Header/index.js'
-import Tabs from '../components/Tabs/index.js'
 import Footer from '../components/Footer/index.js'
 //import { graphql } from 'graphql';
 

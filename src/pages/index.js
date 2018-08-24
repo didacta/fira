@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom';
 import Layout from "../components/layout"
 import { Link } from 'gatsby'
 
@@ -9,10 +8,7 @@ import Container from '../components/DivBox'
 
 import LargeContainer from '../components/LargeDivBox'
 import icon from '../assets/external-link.svg'
-import {
-  Table,
-  Tr,
-} from 'styled-table-component';
+
 
 export default props => (
   <Layout location={props.location}>
