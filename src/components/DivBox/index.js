@@ -33,9 +33,9 @@ th, td {
 }
   background: #b92b27;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom right, #1565C0, pink); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to top left, #29b3b3 , #008080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  color:  	 pink ;
+  color:#94d9d9 ;
   padding:2.15rem;
   border: 1px solid #5082b0;
   box-shadow: 1px 1px 6px 1px #5082b0;

@@ -43,7 +43,7 @@ const StyledMenu = styled.ul`
     }
   }
   a {
-    color: white;
+    color:#94d9d9;
     text-decoration: none;
     &:hover {
       padding: 5%;
