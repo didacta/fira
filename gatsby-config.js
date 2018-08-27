@@ -12,9 +12,17 @@ module.exports = {
         path: `${__dirname}/src/posts`,
         name: 'posts'
       },
-   
+    },
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `img`,
+          path: `${__dirname}/src/assets/img/`
+        }
     },
     'gatsby-transformer-remark',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     'gatsby-plugin-react-helmet'
   ]
 }
