@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import { rhythm } from "../utils/typography"
 
 const ImageAPI = props => {
-  const assets = props.data.allContentfulAsset.edges
+  //const assets = props.data.allContentfulAsset.edges
   return (
     <Layout>
       </Layout>
