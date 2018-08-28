@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import gif from '../assets/404.gif'
-
 const Styled404 = styled.div`
   display: flex;
   flex-direction: column;
@@ -31,6 +29,5 @@ const Styled404 = styled.div`
 export default () => (
   <Styled404>
     <p>Yikes! This page doesn't exist! 😬</p>
-    <img src={gif} />
   </Styled404>
 )

@@ -14,7 +14,7 @@ const Container = styled.div`
   margin: -3rem auto;
   margin-left: 0 auto;
 
-  max-width: 550px;
+  max-width: 600px;
   height:480px;
   display: flex;
   flex-direction: column;
@@ -26,11 +26,14 @@ const Container = styled.div`
 td {
   height: 25px;
   vertical-align: bottom;
+  
 }
 th, td {
   padding: 15px;
   text-align: left;
+  @
 }
+
   background: #b92b27;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top left, #29b3b3 , #008080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -43,21 +46,31 @@ background: linear-gradient(to top left, #29b3b3 , #008080); /* W3C, IE 10+/ Edg
     margin:20px;
     padding:7.5px 30px;
     text-align:center;
-    
+   
     box-shadow: 2px 1px 6px 1px #9999ff ;
     font-weight:200;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 700px) {
     padding: 1rem;
-    width: 95%;
-    margin-top: 0;
-    margin-left: auto;
-    margin-bottom: 0
-    margin-right:auto;
+    margin:-10px -10px -5px;
     display: flex;
-    font-weight: 350;
-    font-size: 13px;
+    font-weight: 600;
+    font-size: 10px;
+      
+    }
+    td {
+      height:50%;
+      width:5%;
+    }
+
+
+    @media (max-width: 400px) {
+      width: 92.5%;
+      td {
+        height:20%;
+        width:5%;
+      }
 `;
 
 
@@ -107,13 +120,13 @@ const Excerpt = styled.p`
 ); */
 const GradientButton = styled.button`
     position: relative;
-    top:20px;
-    left: 400px;
+    top:33px;
+    left:-100px;
     
   appearance: none;
   background: #4d5a99;
   box-shadow: 1px 1px 6px 1px #5082b0;
-  padding: 1em 5em 1em 5em;
+  padding:10px 10px 10px 10px;
   .text {color:#3b4371;}
   border: 1px solid #444488 ;
   color: white;con
@@ -124,12 +137,14 @@ const GradientButton = styled.button`
   border-radius: 100px;
   box-shadow:10px 10px 60px 1px pink
   span {
-    position: relative;
+    position: inline;
   } 
 
   margin:10px;
   @media (max-width: 768px) {
-      padding:10px 10px;}
+      padding:10px 20px;
+      margin:2px;
+    position:center;}
 
 
 
@@ -230,7 +245,7 @@ export default () => (
     </tr>
   </tbody>
   
-  <GradientButtonComponent />
+  
 
 </Table>
 
@@ -239,6 +254,7 @@ export default () => (
       avatar={github}
       excerpt="I'm Igor. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     /> */}
-   
+   <GradientButtonComponent />    
   </Container>
+  
 );
