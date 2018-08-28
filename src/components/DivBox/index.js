@@ -61,16 +61,20 @@ background: linear-gradient(to top left, #29b3b3 , #008080); /* W3C, IE 10+/ Edg
     }
     td {
       height:50%;
-      width:5%;
     }
 
 
     @media (max-width: 400px) {
-      width: 92.5%;
+      width: 95.5%;
       td {
         height:20%;
-        width:5%;
+        width:5%
       }
+        th{
+          height:2%;
+        }
+      }
+      
 `;
 
 
