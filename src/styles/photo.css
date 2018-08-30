@@ -63,7 +63,7 @@ img {
   }
   .cell {
     margin-left:3px;
-    width: calc(29% -rem);
+    width: calc(29% -1rem);
   }
   .cell img {
     display: inline-block;
