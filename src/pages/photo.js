@@ -4,26 +4,37 @@ import Img from "gatsby-image"
 import photo from '../styles/photo.css';
 import e47 from '../assets/img/e47.jpg'
 import e51 from '../assets/img/e51.jpg'
+import e52 from '../assets/img/e52.jpg'
+import e18 from '../assets/img/e18.jpg'
 import e73 from '../assets/img/e73.jpg'
-
+import e80 from '../assets/img/e80.png'
 //import Layout from "../components/layout"
 import { rhythm } from "../utils/typography"
 
 function Photo() {
   //const assets = props.data.allContentfulAsset.edges
   return <div class="container">
-  <div class="grid">
-    <div class="cell">
-    <img src={e47} class="responsive-image"/>
-    </div>
-    <div class="cell">
-    <img src={e51} class="responsive-image"/>
-    </div>
-    <div class="cell">
-    <img src={e73} class="responsive-image"/>
+    <div class="grid">
+      <div class="cell">
+        <img src={e80} class="responsive-image" />
+      </div>
+      <div class="cell">
+        <img src={e73} class="responsive-image" />
+      </div>
+      <div class="cell">
+        <img src={e52} class="responsive-image" />
+      </div>
+      <div class="cell">
+        <img src={e51} class="responsive-image" />
+      </div>
+      <div class="cell">
+        <img src={e47} class="responsive-image" />
+      </div>
+      <div class="cell">
+        <img src={e18} class="responsive-image" />
+      </div>
     </div>
   </div>
-</div>
 }
 export default Photo
 
