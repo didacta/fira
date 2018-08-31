@@ -1,15 +1,14 @@
 
 .container{
-  margin: 12.5px auto;
+  margin: 82.5px auto;
   margin-right:1%;
   margin-left:9%;
-  max-width:1250px;
+  max-width:3000px;
   
 }
 .responsive-image {
   max-width: 100%;
-  
-}
+  }
   .grid {
     display:flex;
     flex-wrap:wrap;
@@ -17,57 +16,98 @@
     max-width: 100%;
   } 
 .cell img {
+  margin-top: 5px;
+  margin-right:1%;
   display: inline-block;
-  width:450px;
+  margin-bottom: 20px;
+  width:700px;
 }
 .cell{
-  margin:5px;
-  margin-top: -5px;
-  max-width: 550px;
-  
+  margin:1px;
+
 }
 img {
   box-shadow: #b8f9f9;
-  padding: 1px;
   margin-left:3px;
-  max-width: 550px;
+  max-width: 900px;
   height: auto;
   width: auto\9; 
 }
 
+@media  screen and (max-width: 1920px) {
+  .container{
+  margin: 52.5px auto;
+  margin-right:1%;
+  margin-left:1%;
+  max-width:1920px;
+  
+}
+  .grid {
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: row;
+    max-width:100%;
+    
+  } 
+  .cell {
+    padding: 5px;
+
+    max-width: 555px;
+    
+  }
+  .cell img {
+    margin-top:17.5px;
+    display: inline-table;
+    height: auto;
+    width: auto\9; 
+  }
+  .responsive-image {
+    max-width: 100%;
+    
+  }
+}
 /* desktop view */
 @media screen and (min-width: 1000px) {
   .grid {
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
-    width:950px;
+    max-width:100%;
+    padding:10px;
     
   } 
   .cell {
-    width: calc(49% - 1rem)
-    
-  }
+    width: calc(49% - 1rem);
+    }
   .cell img {
     display: inline-block;
     height: auto;
     width: auto\9; 
   }
+  .responsive-image {
+    max-width: 100%;
+    
+  }
 }
-/* tablet view */
-@media screen and (max-width: 600px) {
+/* mobile view */
+@media screen and (max-width: 900px) {
   .grid {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
+    width:950px;
   }
   .cell {
     margin-left:3px;
-    width: calc(29% -1rem);
+    width: 900px;
   }
-  .cell img {
-    display: inline-block;
-    height: 900px;
+  img {
+    max-width: 100%;
+    display:auto;
+  }
+  .responsive-image {
+    max-width: 90%;
+    
   }
 }
 /* DIV.ctn {

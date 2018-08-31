@@ -4,33 +4,34 @@ import styled from 'styled-components'
 const StyledMenu = styled.ul`
   list-style-type:cjk-ideographic;
   padding-left: 5.0px;
-  padding-top:  5.0px;
-  padding-bottom: 75px;
+  padding-bottom: 60px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin: 1rem 0;
+  margin: .2rem 0;
   color: #b8f9f9;
+
   
   
   
   li {
      
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-family: 'Lato', sans-serif;
     font-style: Semi-Bold ;
     font-weight: 200;
-    margin-left: 27px;
+    margin-left: 36%;
     
     &:nth-child(even) {
-      margin: 0.9rem 0;
-      margin-left:5px;
+      margin: 0.2rem 0;
+      margin-left: 10%;
     }
     &:last-child {
-      margin-left: 16px;
+      margin-left: 10%;
+      
     }
     @media (min-width: 768px) {
-      font-size: 1.9rem;
+      font-size: 1.1rem;
     }
     img#external-link {
       color: #5082b0;
@@ -47,8 +48,8 @@ const StyledMenu = styled.ul`
     text-decoration: none;
     &:hover {
       padding: 5%;
-      text-decoration: underline;
-      background-color: pink;
+      text-decoration: none;
+      background-color: #b8f9f9;
       border-radius:5%;
     }
   }
@@ -67,7 +68,7 @@ const StyledMenu = styled.ul`
       padding: 3px;
     }
     @media (min-width: 768px) {
-      font-size: 2.0rem;
+      font-size: 1.4rem;
     
     }
     

@@ -5,7 +5,6 @@ import { StaticQuery } from 'gatsby'
 import style from '../styles/style.css';
 
 
-
 import styled from 'styled-components'
 import Header from '../components/Header/index.js'
 import Footer from '../components/Footer/index.js'
@@ -13,17 +12,22 @@ import Footer from '../components/Footer/index.js'
 
 const Layout = ({ children }) => (
   <div>    
+    
     <Helmet
+    
       title="Igor Yermak"
+      
       meta={[
         {
           name: 'description',
           content:
             'Igor is a full-stack web developer, photographer and occasional writer',
+            
         },
       ]}
     >
       <meta property="og:locale" content="en_US" />
+      
     </Helmet>
       
       <Header />
