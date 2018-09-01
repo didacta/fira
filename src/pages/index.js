@@ -4,9 +4,7 @@ import { Link } from 'gatsby'
 
 import Header from '../components/Header'
 import Menu from '../components/Menu'
-import Container from '../components/DivBox'
-
-import LargeContainer from '../components/LargeDivBox'
+//import Container from '../components/DivBox'
 import icon from '../assets/external-link.svg'
 
 
@@ -18,15 +16,11 @@ export default props => (
     
     </Header>
     <Menu>
-
-
       <li><Link to='/photo'>Photos</Link></li>
       <li><Link to='/blog'>Blog</Link></li>
       <li><Link to='/about'>About</Link></li>
-      
     </Menu>
-    <Container>
-    </Container>
+    
   </Layout>
 
 )

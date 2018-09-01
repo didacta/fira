@@ -6,7 +6,7 @@ export default ({ data }) => {
   
   const posts = data.allMarkdownRemark.edges
 
-  return <PostList posts={posts} />
+  return <h1>Projects<PostList posts={posts} /></h1>
 }
 
 

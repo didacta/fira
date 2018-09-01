@@ -1,6 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
+import { Link } from 'gatsby'
+import Header from '../components/Header'
+import Menu from '../components/Menu'
 import photo from '../styles/photo.css';
 import e47 from '../assets/img/e47.jpg'
 import e51 from '../assets/img/e51.jpg'
@@ -8,11 +10,13 @@ import e52 from '../assets/img/e52.jpg'
 import e18 from '../assets/img/e18.jpg'
 import e73 from '../assets/img/e73.jpg'
 import e80 from '../assets/img/e80.png'
-//import Layout from "../components/layout"
+import Layout from "../components/layout"
+
 import { rhythm } from "../utils/typography"
 
 function Photo() {
   //const assets = props.data.allContentfulAsset.edges
+  
   return <div class="container">
     <div class="grid">
       <div class="cell">
@@ -35,8 +39,24 @@ function Photo() {
       </div>
     </div>
   </div>
+
 }
-export default Photo
+export default props => (
+  <Layout location={props.location}>
+ 
+    <Header>
+      <h1><Link to='/'>Igor Yermak</Link></h1>
+    
+    </Header>
+    <Menu>
+      <li><Link to='/photo'>Photos</Link></li>
+      <li><Link to='/blog'>Blog</Link></li>
+      <li><Link to='/about'>About</Link></li>
+    </Menu>
+    
+  </Layout>
+)
+
 
 {/*     {assets.map(({ node: { title, fixed } }) => (
       <div key={fixed.src} style={{ display: `inline-block` }}>

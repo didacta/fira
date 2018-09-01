@@ -47,7 +47,7 @@ background: linear-gradient(to top left, #29b3b3 , #008080); /* W3C, IE 10+/ Edg
     padding:7.5px 30px;
     text-align:center;
    
-    box-shadow: 2px 1px 6px 1px #9999ff ;
+    box-shadow: 1px 1px 6px 1px #9999ff ;
     font-weight:200;
   }
   
@@ -71,7 +71,7 @@ background: linear-gradient(to top left, #29b3b3 , #008080); /* W3C, IE 10+/ Edg
         width:5%
       }
         th{
-          height:2%;
+          height:%;
         }
       }
       
@@ -122,7 +122,7 @@ const Excerpt = styled.p`
     </Description>
   </UserWrapper>
 ); */
-const GradientButton = styled.button`
+/* const GradientButton = styled.button`
     position: relative;
     top:33px;
     left:-100px;
@@ -171,8 +171,8 @@ const GradientButton = styled.button`
         
 			--size: 1000px;
 		}
-`;
-
+`; */
+/* 
 class GradientButtonComponent extends React.Component {
 	constructor(props) {
 		super(props)
@@ -198,7 +198,7 @@ class GradientButtonComponent extends React.Component {
     )
   }
 }
-
+ */
 
 
 
@@ -257,8 +257,6 @@ export default () => (
       username="Igor"
       avatar={github}
       excerpt="I'm Igor. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    /> */}
-   <GradientButtonComponent />    
-  </Container>
+    /> */}  </Container>
   
 );

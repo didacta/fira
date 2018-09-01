@@ -8,7 +8,7 @@ import style from '../styles/style.css';
 import styled from 'styled-components'
 import Header from '../components/Header/index.js'
 import Footer from '../components/Footer/index.js'
-
+import Menu from '../components/Menu/index.js'
 
 const Layout = ({ children }) => (
   <div>    
@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
       <meta property="og:locale" content="en_US" />
       
     </Helmet>
-      
+      <Menu/>
       <Header />
       {children}
       

@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 import Layout from "../components/layout"
 import Header from "../components/Header"
+import Container from '../components/DivBox'
 
 const StyledAbout = styled.div`
   display: flex;
@@ -10,7 +11,7 @@ const StyledAbout = styled.div`
   align-items: center;
   font-family: 'Poppin', sans-serif;
   color: #102a45;
-
+  margin:100px;
   li {
      
     font-size: 1.2rem;
@@ -64,13 +65,11 @@ export default () => (
   <Layout>
       <Header>
         <h1><Link to='/'>Igor Yermak</Link></h1>
+        
       </Header>
   <StyledAbout>
-    <h2>
-    Hello, welcome to my programming and photography blog!</h2>
-    <li> Photography collages</li>
-     <li> Data visualizations
-      </li>
+  <Container>
+    </Container>
      
     
   </StyledAbout>
