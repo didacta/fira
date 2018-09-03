@@ -2,7 +2,7 @@
   "name": "cura",
   "version": "1.0.0",
   "description": "<h1 align=\"center\"> Igor Yermak</h1>",
-  "main": "n/a",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gatsby build",
@@ -26,6 +26,8 @@
     "react-headroom": "2.2.2",
     "react-helmet": "^5.2.0",
     "react-spring": "^5.6.11",
+    "styled-alert-component": "^1.3.0",
+    "styled-bootstrap-components": "^2.0.0",
     "styled-components": "^3.4.2",
     "styled-system": "^3.0.2",
     "styled-table-component": "^1.3.0",
